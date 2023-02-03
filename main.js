@@ -1,27 +1,27 @@
-let artistsContainer = document.getElementById("artists-container");
+var artistsContainer = document.getElementById("artists-container");
 import artists from './artists.json' assert { type: 'json' };
 
-for(let i = 0; i < artists.length; i++) {
-    let thisArtist = document.createElement("article");
+for(var i = 0; i < artists.length; i++) {
+    var thisArtist = document.createElement("article");
 
-    let artistName = document.createElement("h2");
+    var artistName = document.createElement("h2");
     artistName.textContent = artists[i].name;
 
-    let artistLink = document.createElement("a");
+    var artistLink = document.createElement("a");
     artistLink.textContent = artists[i].link;
     artistLink.setAttribute("href", artists[i].link);
     artistLink.setAttribute("rel", "noopener noreferrer");
     artistLink.setAttribute("target", "_blank");
 
-    let artistImages = document.createElement("section");
-    let artistPhoto = document.createElement("img");
+    var artistImages = document.createElement("section");
+    var artistPhoto = document.createElement("img");
     artistPhoto.setAttribute("src", "./assets/" + artists[i].images[0]);
     artistImages.appendChild(artistPhoto);
 
-    let artistWorks = document.createElement("div")
+    var artistWorks = document.createElement("div")
 
-    for(let j = 1; j < artists[i].images.length; j++) {
-        let thisImage = document.createElement("img");
+    for(var j = 1; j < artists[i].images.length; j++) {
+        var thisImage = document.createElement("img");
         thisImage.setAttribute("src", "./assets/" + artists[i].images[j]);
         artistWorks.appendChild(thisImage);
     }
