@@ -1,0 +1,19 @@
+{
+  "name": "black-history-month",
+  "version": "1.0.0",
+  "description": "Project displaying black artists for black history month",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HuhnDaniel/black-history-month.git"
+  },
+  "author": "Daniel Moody-Huhn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HuhnDaniel/black-history-month/issues"
+  },
+  "homepage": "https://github.com/HuhnDaniel/black-history-month#readme"
+}
