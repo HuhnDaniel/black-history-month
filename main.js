@@ -64,7 +64,7 @@ const artists = [
     },
     {
         "name": "Isaka Shamsud-Din",
-        "link": "https://www.oregonlive.com/galleries/GMEYGQOM2.jpgFDVBERAIQVBTSMXM4/",
+        "link": "https://shamsud-din-studio.square.site/",
         "images": [
             "Isaka_Shamsud-Din1.jpg",
             "Isaka_Shamsud-Din2.jpg",
