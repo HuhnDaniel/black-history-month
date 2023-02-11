@@ -8,6 +8,15 @@
             "Adriene_Cruz3.jpg"
         ]
     },
+	{
+		"name": "Alma Thomas",
+		"link": "https://americanart.si.edu/artist/alma-thomas-4778",
+		"images": [
+			"Alma_Thomas1.jpeg",
+			"Alma_Thomas2.jpg",
+			"Alma_Thomas3.jpg"
+		]
+	},
     {
         "name": "Arvie Smith",
         "link": "https://www.arviesmith.com/",
@@ -116,6 +125,15 @@
             "Kenturah_Davis3.jpg"
         ]
     },
+	{
+		"name": "Leandro Assis \"Lebassis\"",
+		"link": "https://lebassis.com/",
+		"images": [
+			"Lebassis1.jpg",
+			"Lebassis2.jpg",
+			"Lebassis3.jpg"
+		]
+	},
     {
         "name": "Ralph Chessé",
         "link": "https://pffcollection.com/artists/ralph-chesse/",
